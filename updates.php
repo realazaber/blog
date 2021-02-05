@@ -7,7 +7,7 @@
         
             <main>
                 <h1>
-                    Sign up page.
+                    Link to user that posts updates.
                 </h1>
             </main>
 

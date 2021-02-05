@@ -6,3 +6,4 @@
     <a class="nav_link" href="signup.php">Sign Up</a>
 </nav>
 <br><br>
+<center>
