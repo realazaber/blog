@@ -1,0 +1,30 @@
+nav, .nav_link, .nav_link:hover, .nav_link:active
+{
+    color: white;
+    height: max-content;
+}
+
+nav
+{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.nav_link
+{
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+body 
+{
+    background-color: whitesmoke;
+}
+
+#title
+{
+    font-size: 90px;
+}
+
+
+
