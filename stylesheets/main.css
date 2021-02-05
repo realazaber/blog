@@ -4,10 +4,13 @@ nav, .nav_link, .nav_link:hover, .nav_link:active
     height: max-content;
 }
 
-nav
+#navigation
 {
     width: 300px;
-    border-radius: 20px;
+    background-color: black;
+    height: 35px;
+    width: 100%;
+    position: fixed;
 }
 
 .nav_link

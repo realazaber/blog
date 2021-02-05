@@ -1,3 +1,4 @@
-    <footer>
-        Version: 0.1
-    </footer>
+<hr>
+<footer>
+    Alpha version: 0.1
+</footer>

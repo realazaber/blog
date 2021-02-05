@@ -9,10 +9,11 @@
     <title>Blog</title>
 </head>
 <body>
-    <center>
         <?php
             include("includes/nav.inc");
         ?>
+    <center>
+
         <main>
             <h3>
                 Welcome to Blog
