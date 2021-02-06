@@ -29,5 +29,21 @@ body
     font-size: 90px;
 }
 
+.required 
+{
+    color: red;
+}
+
+#logo
+{
+    color: white;
+    text-decoration: none;
+}
+
+td
+{
+    padding-top: 10px;
+}
+
 
 

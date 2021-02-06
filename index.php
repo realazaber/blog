@@ -26,5 +26,3 @@
         <?php
             include("includes/version.inc");
         ?>
-    </body>
-</html>

@@ -1,3 +1,7 @@
+<?php
+    include("includes/connect.inc");
+?>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
