@@ -69,6 +69,7 @@
                                 $_q_add_new_user = "INSERT INTO `users` (`rl_name`, `email`, `username`, `password`) 
                                                     VALUES ('$_rl_name', '$_email', '$_username', '$_confirmPassword')";
                                 $_r_add_new_user = mysqli_query($_connection, $_q_add_new_user);
+                                header("Location: sign_up_success.php");
                             }
                         
                     }
