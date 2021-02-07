@@ -60,9 +60,15 @@
                             $_username = $_POST['username'];
                             $_password = $_POST['password'];
                             $_confirmPassword = $_POST['confirmPassword'];
+
+                            $_q_check_email = "SELECT COUNT(`email`) FROM `users` WHERE `email` LIKE '$_email'";
+                            $_r_check_email = mysqli_query($_connection, $_q_check_email);
     
                             if ($_password != $_confirmPassword) {
                                 echo "<p style='color: red;'>Passwords do not match!</p>";
+                            }
+                            else if ($_r_check_email == 1) {
+                                echo "<p style='color: red;'>There is already an account with this email.</p>";
                             }
                             else {
                                 echo "<p style='color: lightgreen;'>Success</p>";
